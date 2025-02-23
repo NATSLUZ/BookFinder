@@ -17,7 +17,7 @@ Certifique-se de ter um compilador C instalado (como `gcc`). Para compilar e exe
 
 ```sh
 # Compilar
-gcc -o bookfinder bookfinder.c
+gcc -o bookfinder biblioteca.c
 
 # Executar
 ./bookfinder
@@ -25,7 +25,7 @@ gcc -o bookfinder bookfinder.c
 
 Se estiver no Windows, use:
 ```sh
-gcc -o bookfinder.exe bookfinder.c
+gcc -o bookfinder.exe biblioteca.c
 bookfinder.exe
 ```
 
